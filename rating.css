@@ -1,0 +1,49 @@
+.ratingDiv {
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%;
+	border: 1px solid gray;
+}
+
+#submitBtn {
+	margin-top: 3%;
+}
+
+.rateHeading {
+	font-size: 32px;
+}
+
+.c-rating {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  
+}
+
+.c-rating__item {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 160px;
+      -ms-flex: 0 0 160px;
+          flex: 0 0 160px;
+  height: 150px;
+  background: url("stars.svg");
+  background-position: 0 0;
+  cursor: pointer;
+}
+
+.c-rating__item:hover,
+.c-rating__item.is-active {
+  background-position: -160px 0;
+}
+
+#el {
+  justify-content: center;
+}
+
+.modal-title {
+	text-align: center;
+	font-weight: bold;
+}
